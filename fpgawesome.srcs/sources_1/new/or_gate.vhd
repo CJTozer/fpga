@@ -38,7 +38,10 @@ entity or_gate is
 end or_gate;
 
 architecture Behavioral of or_gate is
-
+    process(in_1, in_2) is
+    begin
+        out <= in_1 or in_2;
+    end process;
 begin
 
 
