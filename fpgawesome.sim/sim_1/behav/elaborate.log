@@ -16,5 +16,9 @@ Compiling package xil_defaultlib.mac_types
 Compiling architecture structural of entity xil_defaultlib.mac_topentity_smact [mac_topentity_smact_default]
 Compiling architecture structural of entity xil_defaultlib.mac_mealy [mac_mealy_default]
 Compiling architecture structural of entity xil_defaultlib.mac_topentity_0 [mac_topentity_0_default]
+Compiling architecture structural of entity xil_defaultlib.mac_stimuligenerator_sstimuligenerator [mac_stimuligenerator_sstimuligen...]
+Compiling architecture structural of entity xil_defaultlib.mac_testinput [mac_testinput_default]
+Compiling architecture structural of entity xil_defaultlib.mac_outputverifier_soutputverifier [mac_outputverifier_soutputverifi...]
+Compiling architecture structural of entity xil_defaultlib.mac_expectedoutput [mac_expectedoutput_default]
 Compiling architecture structural of entity xil_defaultlib.mac_testbench
 Built simulation snapshot mac_testbench_behav

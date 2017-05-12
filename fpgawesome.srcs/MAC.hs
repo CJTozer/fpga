@@ -15,8 +15,8 @@ mac = mealy macT 0
 topEntity :: Signal (Signed 4, Signed 4) -> Signal (Signed 9)
 topEntity = mac
 
---testInput :: Signal (Signed 4,Signed 4)
---testInput = stimuliGenerator $(listToVecTH [(1,1) :: (Signed 4,Signed 4),(2,2),(3,3),(4,4)])
+testInput :: Signal (Signed 4,Signed 4)
+testInput = stimuliGenerator $(listToVecTH [(1,1) :: (Signed 4,Signed 4),(2,2),(3,3),(4,4)])
 
---expectedOutput :: Signal (Signed 9) -> Signal Bool
---expectedOutput = outputVerifier $(listToVecTH [0 :: Signed 9,1,5,14])
+expectedOutput :: Signal (Signed 9) -> Signal Bool
+expectedOutput = outputVerifier $(listToVecTH [0 :: Signed 9,1,5,14])

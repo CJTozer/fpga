@@ -47,15 +47,16 @@ begin
       ,w3              => w3
       ,result          => result);
   
-  w3 <= mac_types.tup2'(signed'(0 to 3 => 'X'),signed'(0 to 3 => 'X'));
+  stimuli : entity mac_testinput
+    port map
+      (system1000      => system1000
+      ,system1000_rstn => system1000_rstn
+      ,result          => w3);
   
-  finished <=
-  -- pragma translate_off
-              false,
-  -- pragma translate_on
-              true
-  -- pragma translate_off
-              after 100 ns
-  -- pragma translate_on
-              ;
+  verify : entity mac_expectedoutput
+    port map
+      (system1000      => system1000
+      ,system1000_rstn => system1000_rstn
+      ,arg             => result
+      ,result          => finished);
 end;
