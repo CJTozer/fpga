@@ -51,13 +51,13 @@ begin
   result <= case_alt_0 when case_scrut else
             case_alt;
   
-  magnitude_case_alt <= unsigned(std_logic_vector(-(signed(std_logic_vector(sample)))));
+  magnitude_case_alt <= sample xor to_unsigned(31,14);
   
   with (sign) select
-    magnitude <= magnitude_case_alt when "00000000000001",
+    magnitude <= magnitude_case_alt when "00000000100000",
                  sample when others;
   
   sign_app_arg <= shift_right(sample,to_integer(to_signed(8,64)));
   
-  sign <= sign_app_arg and to_unsigned(128,14);
+  sign <= sign_app_arg and to_unsigned(32,14);
 end;
