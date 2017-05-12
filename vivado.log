@@ -161,3 +161,27 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 6578.656 ; gain = 174.805 ; free physical = 23155 ; free virtual = 65000
+add_files {/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity.vhdl /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri May 12 10:23:53 2017] Launched synth_1...
+Run output will be captured here: /home/centos/fpgawesome/fpgawesome.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 4
+[Fri May 12 10:24:59 2017] Launched impl_1...
+Run output will be captured here: /home/centos/fpgawesome/fpgawesome.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 6978.125 ; gain = 0.000 ; free physical = 21978 ; free virtual = 63853
+Restored from archive | CPU: 0.010000 secs | Memory: 0.010345 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 6978.125 ; gain = 0.000 ; free physical = 21978 ; free virtual = 63853
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7034.547 ; gain = 56.422 ; free physical = 21949 ; free virtual = 63823
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.

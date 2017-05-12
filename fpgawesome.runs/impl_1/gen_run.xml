@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k70tfbg676-1" LaunchTime="1494584633">
-  <File Type="VDS-TIMING-PB" Name="mac_testbench_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="mac_testbench_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="mac_testbench.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="mac_testbench_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="mac_testbench_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="mac_testbench_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="mac_testbench.vds"/>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbg676-1" LaunchTime="1494584699">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="mac_testbench.drc"/>
+  <File Type="BG-BGN" Name="mac_testbench.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="mac_testbench.sysdef"/>
+  <File Type="BITSTR-MMI" Name="mac_testbench.mmi"/>
+  <File Type="BITSTR-BMM" Name="mac_testbench_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="mac_testbench.nky"/>
+  <File Type="BITSTR-RBT" Name="mac_testbench.rbt"/>
+  <File Type="BITSTR-MSK" Name="mac_testbench.msk"/>
+  <File Type="BG-BIN" Name="mac_testbench.bin"/>
+  <File Type="BG-BIT" Name="mac_testbench.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mac_testbench_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mac_testbench_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mac_testbench_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mac_testbench_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mac_testbench_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="mac_testbench_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="mac_testbench_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mac_testbench_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="mac_testbench_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mac_testbench_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mac_testbench_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="mac_testbench_route_status.rpt"/>
+  <File Type="PLACE-CTRL" Name="mac_testbench_control_sets_placed.rpt"/>
+  <File Type="PLACE-IO" Name="mac_testbench_io_placed.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mac_testbench_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mac_testbench_placed.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="mac_testbench_utilization_placed.pb"/>
+  <File Type="PHYSOPT-TIMING" Name="mac_testbench_timing_summary_physopted.rpt"/>
+  <File Type="PWROPT-DRC" Name="mac_testbench_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="mac_testbench_pwropt.dcp"/>
+  <File Type="PLACE-UTIL" Name="mac_testbench_utilization_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mac_testbench_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="OPT-TIMING" Name="mac_testbench_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mac_testbench.hwdef"/>
+  <File Type="PLACE-CLK" Name="mac_testbench_clock_utilization_placed.rpt"/>
+  <File Type="RDI-RDI" Name="mac_testbench.vdi"/>
+  <File Type="PLACE-TIMING" Name="mac_testbench_timing_summary_placed.rpt"/>
+  <File Type="INIT-TIMING" Name="mac_testbench_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="mac_testbench_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mac_testbench_opt.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mac_testbench_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mac_testbench_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mac_testbench_incremental_reuse_placed.rpt"/>
   <File Type="PA-TCL" Name="mac_testbench.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mac_testbench_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="mac_testbench_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mac_testbench_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mac_testbench_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mac_testbench_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mac_testbench_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mac_testbench_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mac_testbench_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mac_testbench_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mac_testbench_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="mac_testbench_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="mac_testbench_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mac_testbench_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="mac_testbench_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mac_testbench_power_routed.rpx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/vhdl/MAC/mac_types.vhdl">
@@ -148,7 +200,15 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
-    <Step Id="synth_design"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
   </Strategy>
 </GenRun>

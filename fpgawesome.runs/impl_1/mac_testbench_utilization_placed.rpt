@@ -1,13 +1,13 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
-| Date         : Fri May 12 10:24:14 2017
+| Date         : Fri May 12 10:25:25 2017
 | Host         : ip-172-31-30-2.eu-west-2.compute.internal running 64-bit CentOS Linux release 7.3.1611 (Core)
-| Command      : report_utilization -file mac_testbench_utilization_synth.rpt -pb mac_testbench_utilization_synth.pb
+| Command      : report_utilization -file mac_testbench_utilization_placed.rpt -pb mac_testbench_utilization_placed.pb
 | Design       : mac_testbench
 | Device       : 7k70tfbg676-1
 | Design State : Fully Placed
----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Utilization Design Information
 

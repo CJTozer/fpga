@@ -2,8 +2,8 @@
 # Vivado v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Fri May 12 10:03:23 2017
-# Process ID: 18968
+# Start of session at: Fri May 12 10:23:54 2017
+# Process ID: 22936
 # Current directory: /home/centos/fpgawesome/fpgawesome.runs/synth_1
 # Command line: vivado -log mac_testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mac_testbench.tcl
 # Log file: /home/centos/fpgawesome/fpgawesome.runs/synth_1/mac_testbench.vds
@@ -16,26 +16,26 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t-fbg676'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t-fbg676'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18976 
+INFO: Helper process launched with PID 22946 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1276.977 ; gain = 76.988 ; free physical = 23222 ; free virtual = 65030
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1276.973 ; gain = 76.988 ; free physical = 21782 ; free virtual = 63655
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'mac_testbench' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl:14]
-INFO: [Synth 8-638] synthesizing module 'mac_topentity_0' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl:19]
-INFO: [Synth 8-638] synthesizing module 'mac_mealy' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl:19]
-INFO: [Synth 8-256] done synthesizing module 'mac_mealy' (1#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl:19]
-INFO: [Synth 8-256] done synthesizing module 'mac_topentity_0' (2#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl:19]
-INFO: [Synth 8-638] synthesizing module 'mac_testinput' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl:18]
-INFO: [Synth 8-638] synthesizing module 'mac_stimuligenerator_sstimuligenerator' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl:18]
-INFO: [Synth 8-256] done synthesizing module 'mac_stimuligenerator_sstimuligenerator' (3#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl:18]
-INFO: [Synth 8-256] done synthesizing module 'mac_testinput' (4#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl:18]
-INFO: [Synth 8-638] synthesizing module 'mac_expectedoutput' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl:19]
-INFO: [Synth 8-638] synthesizing module 'mac_outputverifier_soutputverifier' [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl:19]
-INFO: [Synth 8-256] done synthesizing module 'mac_outputverifier_soutputverifier' (5#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl:19]
-INFO: [Synth 8-256] done synthesizing module 'mac_expectedoutput' (6#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl:19]
-WARNING: [Synth 8-3848] Net system1000 in module/entity mac_testbench does not have driver. [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl:16]
-WARNING: [Synth 8-3848] Net system1000_rstn in module/entity mac_testbench does not have driver. [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl:17]
-INFO: [Synth 8-256] done synthesizing module 'mac_testbench' (7#1) [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'mac_testbench' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'mac_topentity_0' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl:19]
+INFO: [Synth 8-638] synthesizing module 'mac_mealy' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'mac_mealy' (1#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'mac_topentity_0' (2#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl:19]
+INFO: [Synth 8-638] synthesizing module 'mac_testinput' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl:18]
+INFO: [Synth 8-638] synthesizing module 'mac_stimuligenerator_sstimuligenerator' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'mac_stimuligenerator_sstimuligenerator' (3#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'mac_testinput' (4#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl:18]
+INFO: [Synth 8-638] synthesizing module 'mac_expectedoutput' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl:19]
+INFO: [Synth 8-638] synthesizing module 'mac_outputverifier_soutputverifier' [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'mac_outputverifier_soutputverifier' (5#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'mac_expectedoutput' (6#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl:19]
+WARNING: [Synth 8-3848] Net system1000 in module/entity mac_testbench does not have driver. [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl:16]
+WARNING: [Synth 8-3848] Net system1000_rstn in module/entity mac_testbench does not have driver. [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'mac_testbench' (7#1) [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl:14]
 WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnected port i[8]
 WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnected port i[7]
 WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnected port i[6]
@@ -46,22 +46,22 @@ WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnecte
 WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnected port i[1]
 WARNING: [Synth 8-3331] design mac_outputverifier_soutputverifier has unconnected port i[0]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1317.484 ; gain = 117.496 ; free physical = 23229 ; free virtual = 65040
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1317.480 ; gain = 117.496 ; free physical = 21791 ; free virtual = 63665
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1317.484 ; gain = 117.496 ; free physical = 23230 ; free virtual = 65040
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1317.480 ; gain = 117.496 ; free physical = 21791 ; free virtual = 63665
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1325.484 ; gain = 125.496 ; free physical = 23230 ; free virtual = 65040
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1325.480 ; gain = 125.496 ; free physical = 21791 ; free virtual = 63665
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element x_reg was removed.  [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl:38]
+WARNING: [Synth 8-6014] Unused sequential element x_reg was removed.  [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:38]
 INFO: [Device 21-403] Loading part xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1333.492 ; gain = 133.504 ; free physical = 23221 ; free virtual = 65031
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1333.488 ; gain = 133.504 ; free physical = 21783 ; free virtual = 63657
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -127,11 +127,11 @@ No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element totest/mac_mealy_result/x_reg was removed.  [/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl:38]
+WARNING: [Synth 8-6014] Unused sequential element totest/mac_mealy_result/x_reg was removed.  [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:38]
 WARNING: [Synth 8-3332] Sequential element (stimuli/mac_stimuligenerator_sstimuligenerator_result/x_reg[1]) is unused and will be removed from module mac_testbench.
 WARNING: [Synth 8-3332] Sequential element (stimuli/mac_stimuligenerator_sstimuligenerator_result/x_reg[0]) is unused and will be removed from module mac_testbench.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.449 ; gain = 235.461 ; free physical = 23064 ; free virtual = 64895
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.438 ; gain = 235.453 ; free physical = 21648 ; free virtual = 63521
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -144,7 +144,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.453 ; gain = 235.465 ; free physical = 23064 ; free virtual = 64895
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.441 ; gain = 235.457 ; free physical = 21647 ; free virtual = 63521
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -159,7 +159,7 @@ WARNING: [Synth 8-3332] Sequential element (verify/mac_outputverifier_soutputver
 WARNING: [Synth 8-3332] Sequential element (verify/mac_outputverifier_soutputverifier_result/x_0_reg[0]) is unused and will be removed from module mac_testbench.
 WARNING: [Synth 8-3332] Sequential element (verify/mac_outputverifier_soutputverifier_result/app_arg_0_reg) is unused and will be removed from module mac_testbench.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1445.465 ; gain = 245.477 ; free physical = 23063 ; free virtual = 64894
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1444.453 ; gain = 244.469 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -183,7 +183,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -196,7 +196,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -208,25 +208,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -252,11 +252,11 @@ Report Instance Areas:
 |1     |top      |       |     1|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23063 ; free virtual = 64895
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21646 ; free virtual = 63520
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.469 ; gain = 245.480 ; free physical = 23065 ; free virtual = 64896
-Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1445.473 ; gain = 245.480 ; free physical = 23065 ; free virtual = 64896
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.457 ; gain = 244.473 ; free physical = 21648 ; free virtual = 63521
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.461 ; gain = 244.473 ; free physical = 21648 ; free virtual = 63521
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -265,7 +265,7 @@ No Unisim elements were transformed.
 
 20 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1522.590 ; gain = 335.191 ; free physical = 22996 ; free virtual = 64842
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1522.578 ; gain = 335.184 ; free physical = 21594 ; free virtual = 63467
 INFO: [Common 17-1381] The checkpoint '/home/centos/fpgawesome/fpgawesome.runs/synth_1/mac_testbench.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1546.609 ; gain = 0.000 ; free physical = 22996 ; free virtual = 64842
-INFO: [Common 17-206] Exiting Vivado at Fri May 12 10:03:44 2017...
+report_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1546.598 ; gain = 0.000 ; free physical = 21595 ; free virtual = 63468
+INFO: [Common 17-206] Exiting Vivado at Fri May 12 10:24:14 2017...

@@ -16,14 +16,14 @@ set_property target_language VHDL [current_project]
 set_property ip_output_repo /home/centos/fpgawesome/fpgawesome.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_types.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl
-  /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl
+  /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
