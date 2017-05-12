@@ -185,3 +185,150 @@ No Unisim elements were transformed.
 
 open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7034.547 ; gain = 56.422 ; free physical = 21949 ; free virtual = 63823
 WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mac_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+xvhdl -m64 --relax -prj mac_testbench_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_mealy
+ERROR: [VRFC 10-91] mac_topentity_smact is not declared [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-757] if you are trying to directly instantiate a design entity, please use expanded name [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-1504] unit structural ignored due to previous errors [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:19]
+INFO: [VRFC 10-240] VHDL file /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_topentity_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testinput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mac_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+xvhdl -m64 --relax -prj mac_testbench_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_mealy
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_topentity_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testinput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.1/bin/unwrapped/lnx64.o/xelab -wto ea23e5d9beaa4b00822e3b1c31552859 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot mac_testbench_behav xil_defaultlib.mac_testbench -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.mac_types
+Compiling architecture structural of entity xil_defaultlib.mac_mealy [mac_mealy_default]
+Compiling architecture structural of entity xil_defaultlib.mac_topentity_0 [mac_topentity_0_default]
+Compiling architecture structural of entity xil_defaultlib.mac_stimuligenerator_sstimuligenerator [mac_stimuligenerator_sstimuligen...]
+Compiling architecture structural of entity xil_defaultlib.mac_testinput [mac_testinput_default]
+Compiling architecture structural of entity xil_defaultlib.mac_outputverifier_soutputverifier [mac_outputverifier_soutputverifi...]
+Compiling architecture structural of entity xil_defaultlib.mac_expectedoutput [mac_expectedoutput_default]
+Compiling architecture structural of entity xil_defaultlib.mac_testbench
+Built simulation snapshot mac_testbench_behav
+
+****** Webtalk v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xsim.dir/mac_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 12 10:54:17 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mac_testbench_behav -key {Behavioral:sim_1:Functional:mac_testbench} -tclbatch {mac_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.1
+Time resolution is 1 ps
+source mac_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 7108.391 ; gain = 31.820 ; free physical = 21768 ; free virtual = 63643
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mac_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 7108.391 ; gain = 31.820 ; free physical = 21768 ; free virtual = 63643
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mac_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+xvhdl -m64 --relax -prj mac_testbench_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_mealy
+ERROR: [VRFC 10-91] mac_topentity_smact is not declared [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-757] if you are trying to directly instantiate a design entity, please use expanded name [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-1504] unit structural ignored due to previous errors [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:19]
+INFO: [VRFC 10-240] VHDL file /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_topentity_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testinput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1

@@ -1,15 +1,19 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_types.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_mealy
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+ERROR: [VRFC 10-91] mac_topentity_smact is not declared [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-757] if you are trying to directly instantiate a design entity, please use expanded name [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:30]
+ERROR: [VRFC 10-1504] unit structural ignored due to previous errors [/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl:19]
+INFO: [VRFC 10-240] VHDL file /home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_topentity_0
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_testinput
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mac_testbench

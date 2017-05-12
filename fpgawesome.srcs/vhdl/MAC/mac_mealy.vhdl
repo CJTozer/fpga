@@ -17,27 +17,21 @@ entity mac_mealy is
 end;
 
 architecture structural of mac_mealy is
-  signal y             : signed(8 downto 0);
-  signal result_0      : mac_types.tup2;
-  signal tup_case_alt  : mac_types.tup2;
-  signal tup_app_arg   : signed(8 downto 0);
-  signal x             : signed(8 downto 0);
-  signal tup_app_arg_0 : signed(8 downto 0);
-  signal x_app_arg     : signed(8 downto 0);
-  signal x_0           : signed(8 downto 0);
-  signal y_0           : signed(8 downto 0);
-  signal x_1           : signed(8 downto 0);
+  signal y         : signed(8 downto 0);
+  signal result_0  : mac_types.tup2_0;
+  signal x         : signed(8 downto 0);
+  signal x_app_arg : signed(8 downto 0);
+  signal x_0       : signed(8 downto 0);
 begin
   result <= y;
   
-  y <= result_0.tup2_sel1;
+  y <= result_0.tup2_0_sel1;
   
-  result_0 <= tup_case_alt;
-  
-  tup_case_alt <= (tup2_sel0 => tup_app_arg
-                  ,tup2_sel1 => x);
-  
-  tup_app_arg <= x + tup_app_arg_0;
+  mac_topentity_smact_result_0 : entity mac_topentity_smact
+    port map
+      (result => result_0
+      ,acc    => x
+      ,ds     => w2);
   
   -- register begin
   mac_mealy_register : process(system1000,system1000_rstn)
@@ -50,13 +44,7 @@ begin
   end process;
   -- register end
   
-  tup_app_arg_0 <= resize(x_0 * y_0, 9);
+  x_app_arg <= x_0;
   
-  x_app_arg <= x_1;
-  
-  x_0 <= w2.tup2_sel0;
-  
-  y_0 <= w2.tup2_sel1;
-  
-  x_1 <= result_0.tup2_sel0;
+  x_0 <= result_0.tup2_0_sel0;
 end;

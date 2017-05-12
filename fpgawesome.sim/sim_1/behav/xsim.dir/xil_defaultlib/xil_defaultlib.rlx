@@ -2,11 +2,11 @@
 2017.1
 Apr 14 2017
 18:58:24
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl,,,mac_expectedoutput,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl,,,mac_mealy,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl,,,mac_outputverifier_soutputverifier,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl,,,mac_stimuligenerator_sstimuligenerator,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl,1494575938,vhdl,,,,mac_testbench,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl,,,mac_testinput,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl,,,mac_topentity_0,,,,,,,,
-/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_types.vhdl,1494575938,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl,,,mac_types,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl,,,mac_expectedoutput,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl,,,mac_mealy,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl,,,mac_outputverifier_soutputverifier,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl,,,mac_stimuligenerator_sstimuligenerator,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl,1494587707,vhdl,,,,mac_testbench,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl,,,mac_testinput,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl,,,mac_topentity_0,,,,,,,,
+/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl,1494587707,vhdl,/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl;/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl,,,mac_types,,,,,,,,

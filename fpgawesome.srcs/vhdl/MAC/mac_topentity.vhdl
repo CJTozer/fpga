@@ -8,8 +8,8 @@ use work.all;
 use work.mac_types.all;
 
 entity mac_topentity is
-  port(input_0_0       : in signed(8 downto 0);
-       input_0_1       : in signed(8 downto 0);
+  port(input_0_0       : in signed(3 downto 0);
+       input_0_1       : in signed(3 downto 0);
        -- clock
        system1000      : in std_logic;
        -- asynchronous reset: active low
