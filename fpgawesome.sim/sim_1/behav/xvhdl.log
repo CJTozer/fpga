@@ -1,17 +1,19 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_types.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_expectedoutput.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_smact.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_topentity_smact
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_mealy.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_mealy
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_topentity_0.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_topentity_0
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testinput.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_testinput
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/MAC/mac_testbench.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mac_testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_encode_slookupthings1.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_encode_slookupthings1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_encode_slookupthings.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_encode_slookupthings
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_encode.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_encode
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_outputverifier_soutputverifier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_expectedoutput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_stimuligenerator_sstimuligenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_topentity_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_testinput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/vhdl/Ulaw/ulaw_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ulaw_testbench

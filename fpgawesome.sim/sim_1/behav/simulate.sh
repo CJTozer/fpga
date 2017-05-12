@@ -9,4 +9,4 @@ then
 exit $RETVAL
 fi
 }
-ExecStep $xv_path/bin/xsim mac_testbench_behav -key {Behavioral:sim_1:Functional:mac_testbench} -tclbatch mac_testbench.tcl -log simulate.log
+ExecStep $xv_path/bin/xsim ulaw_testbench_behav -key {Behavioral:sim_1:Functional:ulaw_testbench} -tclbatch ulaw_testbench.tcl -log simulate.log

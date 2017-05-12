@@ -18,16 +18,16 @@ end;
 architecture structural of ulaw_stimuligenerator_sstimuligenerator is
   signal y              : unsigned(13 downto 0);
   signal result_0       : ulaw_types.tup2;
-  signal tup_app_arg    : unsigned(0 downto 0);
+  signal tup_app_arg    : unsigned(1 downto 0);
   signal result_1       : unsigned(13 downto 0);
   signal tup_case_scrut : boolean;
-  signal tup_case_alt   : unsigned(0 downto 0);
+  signal tup_case_alt   : unsigned(1 downto 0);
   signal tup_app_arg_0  : signed(63 downto 0);
-  signal x              : unsigned(0 downto 0);
+  signal x              : unsigned(1 downto 0);
   signal wild           : signed(63 downto 0);
-  signal x_app_arg      : unsigned(0 downto 0);
+  signal x_app_arg      : unsigned(1 downto 0);
   signal wild_app_arg   : signed(63 downto 0);
-  signal x_0            : unsigned(0 downto 0);
+  signal x_0            : unsigned(1 downto 0);
 begin
   result <= y;
   
@@ -41,22 +41,22 @@ begin
   
   -- index begin
   indexvec : block 
-  signal vec : ulaw_types.array_of_unsigned_14(0 to 1);
-  signal vec_index : integer range 0 to 2-1;
+  signal vec : ulaw_types.array_of_unsigned_14(0 to 2);
+  signal vec_index : integer range 0 to 3-1;
   begin
-    vec <= ulaw_types.array_of_unsigned_14'(to_unsigned(30,14),to_unsigned(7936,14));
+    vec <= ulaw_types.array_of_unsigned_14'(to_unsigned(8129,14),to_unsigned(8193,14),to_unsigned(1254,14));
     vec_index <= to_integer(tup_app_arg_0)
     -- pragma translate_off
-                 mod 2
+                 mod 3
     -- pragma translate_on
                  ;
     result_1 <= vec(vec_index);
   end block;
   -- index end
   
-  tup_case_scrut <= x < (resize(unsigned(std_logic_vector(((to_signed(2,64) - to_signed(1,64))))),1));
+  tup_case_scrut <= x < (resize(unsigned(std_logic_vector(((to_signed(3,64) - to_signed(1,64))))),2));
   
-  tup_case_alt <= x + to_unsigned(1,1);
+  tup_case_alt <= x + to_unsigned(1,2);
   
   tup_app_arg_0 <= wild;
   
@@ -64,7 +64,7 @@ begin
   ulaw_stimuligenerator_sstimuligenerator_register : process(system1000,system1000_rstn)
   begin
     if system1000_rstn = '0' then
-      x <= to_unsigned(0,1);
+      x <= to_unsigned(0,2);
     elsif rising_edge(system1000) then
       x <= x_app_arg;
     end if;

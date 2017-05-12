@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_types.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_encode_slookupthings1.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_encode_slookupthings.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_encode.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_outputverifier_soutputverifier.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_expectedoutput.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_stimuligenerator_sstimuligenerator.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_topentity_0.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_testinput.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/vhdl/Ulaw/ulaw_testbench.vhdl"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+Running: xsim.dir/ulaw_testbench_behav/xsimk -simmode gui -wdb ulaw_testbench_behav.wdb -simrunnum 0 -socket 58642
+Design successfully loaded
+Design Loading Memory Usage: 41592 KB (Peak: 41592 KB)
+Design Loading CPU Usage: 10 ms

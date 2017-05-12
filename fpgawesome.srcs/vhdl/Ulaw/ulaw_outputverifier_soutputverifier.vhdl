@@ -25,18 +25,18 @@ architecture structural of ulaw_outputverifier_soutputverifier is
   signal y              : boolean;
   signal y_0            : ulaw_types.tup2_0;
   signal result_1       : ulaw_types.tup2_1;
-  signal tup_app_arg    : unsigned(0 downto 0);
+  signal tup_app_arg    : unsigned(1 downto 0);
   signal tup_app_arg_0  : ulaw_types.tup2_0;
   signal tup_case_scrut : boolean;
-  signal tup_case_alt   : unsigned(0 downto 0);
+  signal tup_case_alt   : unsigned(1 downto 0);
   signal result_2       : unsigned(7 downto 0);
   signal tup_app_arg_1  : boolean;
-  signal x_0            : unsigned(0 downto 0);
+  signal x_0            : unsigned(1 downto 0);
   signal tup_app_arg_2  : signed(63 downto 0);
-  signal x_app_arg      : unsigned(0 downto 0);
+  signal x_app_arg      : unsigned(1 downto 0);
   signal wild           : signed(63 downto 0);
   signal wild_app_arg   : signed(63 downto 0);
-  signal x_1            : unsigned(0 downto 0);
+  signal x_1            : unsigned(1 downto 0);
 begin
   -- assert begin
   assert_r : block
@@ -104,32 +104,32 @@ begin
   tup_app_arg_0 <= (tup2_0_sel0 => result_2
                    ,tup2_0_sel1 => tup_app_arg_1);
   
-  tup_case_scrut <= x_0 < (resize(unsigned(std_logic_vector(((to_signed(2,64) - to_signed(1,64))))),1));
+  tup_case_scrut <= x_0 < (resize(unsigned(std_logic_vector(((to_signed(3,64) - to_signed(1,64))))),2));
   
-  tup_case_alt <= x_0 + to_unsigned(1,1);
+  tup_case_alt <= x_0 + to_unsigned(1,2);
   
   -- index begin
   indexvec : block 
-  signal vec : ulaw_types.array_of_unsigned_8(0 to 1);
-  signal vec_index : integer range 0 to 2-1;
+  signal vec : ulaw_types.array_of_unsigned_8(0 to 2);
+  signal vec_index : integer range 0 to 3-1;
   begin
-    vec <= ulaw_types.array_of_unsigned_8'(to_unsigned(15,8),to_unsigned(127,8));
+    vec <= ulaw_types.array_of_unsigned_8'(to_unsigned(127,8),to_unsigned(143,8),to_unsigned(84,8));
     vec_index <= to_integer(tup_app_arg_2)
     -- pragma translate_off
-                 mod 2
+                 mod 3
     -- pragma translate_on
                  ;
     result_2 <= vec(vec_index);
   end block;
   -- index end
   
-  tup_app_arg_1 <= x_0 = (resize(unsigned(std_logic_vector(((to_signed(2,64) - to_signed(1,64))))),1));
+  tup_app_arg_1 <= x_0 = (resize(unsigned(std_logic_vector(((to_signed(3,64) - to_signed(1,64))))),2));
   
   -- register begin
   ulaw_outputverifier_soutputverifier_register_0 : process(system1000,system1000_rstn)
   begin
     if system1000_rstn = '0' then
-      x_0 <= to_unsigned(0,1);
+      x_0 <= to_unsigned(0,2);
     elsif rising_edge(system1000) then
       x_0 <= x_app_arg;
     end if;
