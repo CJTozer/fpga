@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri May 12 07:48:53 2017
+# Process ID: 3253
+# Current directory: /home/centos/fpgawesome
+# Command line: vivado -mode tcl
+# Log file: /home/centos/fpgawesome/vivado.log
+# Journal file: /home/centos/fpgawesome/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/opt/Xilinx/Vivado/2017.1/scripts/Vivado_init.tcl'
+start_gui
+open_project /home/centos/fpgawesome/fpgawesome.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 6110.605 ; gain = 61.184 ; free physical = 29673 ; free virtual = 66567
+update_compile_order -fileset sources_1
+add_files {/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/new/or_gate.vhd /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl /home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_types.vhdl}
+WARNING: [filemgmt 56-12] File '/home/centos/fpgawesome/fpgawesome.srcs/sources_1/new/or_gate.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mac_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+xvhdl -m64 --relax -prj mac_testbench_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_types.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_outputverifier_soutputverifier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_expectedoutput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_mealy.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_mealy
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_stimuligenerator_sstimuligenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_topentity_0.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_topentity_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testinput.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testinput
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/centos/fpgawesome/fpgawesome.srcs/sources_1/mac_testbench.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mac_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.1/bin/unwrapped/lnx64.o/xelab -wto ea23e5d9beaa4b00822e3b1c31552859 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot mac_testbench_behav xil_defaultlib.mac_testbench -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.mac_types
+Compiling architecture structural of entity xil_defaultlib.mac_mealy [mac_mealy_default]
+Compiling architecture structural of entity xil_defaultlib.mac_topentity_0 [mac_topentity_0_default]
+Compiling architecture structural of entity xil_defaultlib.mac_stimuligenerator_sstimuligenerator [mac_stimuligenerator_sstimuligen...]
+Compiling architecture structural of entity xil_defaultlib.mac_testinput [mac_testinput_default]
+Compiling architecture structural of entity xil_defaultlib.mac_outputverifier_soutputverifier [mac_outputverifier_soutputverifi...]
+Compiling architecture structural of entity xil_defaultlib.mac_expectedoutput [mac_expectedoutput_default]
+Compiling architecture structural of entity xil_defaultlib.mac_testbench
+Built simulation snapshot mac_testbench_behav
+
+****** Webtalk v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/centos/fpgawesome/fpgawesome.sim/sim_1/behav/xsim.dir/mac_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 12 08:12:21 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/centos/fpgawesome/fpgawesome.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mac_testbench_behav -key {Behavioral:sim_1:Functional:mac_testbench} -tclbatch {mac_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.1
+Time resolution is 1 ps
+source mac_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 6316.062 ; gain = 53.543 ; free physical = 28517 ; free virtual = 65602
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mac_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 6316.062 ; gain = 62.277 ; free physical = 28516 ; free virtual = 65602
+run 5 us
+launch_runs synth_1 -jobs 4
+[Fri May 12 09:39:53 2017] Launched synth_1...
+Run output will be captured here: /home/centos/fpgawesome/fpgawesome.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property part xc7k325tiffv900-2L [current_project]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri May 12 09:47:33 2017] Launched synth_1...
+Run output will be captured here: /home/centos/fpgawesome/fpgawesome.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project /home/centos/wavegen/wavegen.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 6403.852 ; gain = 0.000 ; free physical = 23510 ; free virtual = 65313
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+close_project
+open_project /home/centos/fpgawesome/fpgawesome.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 6403.852 ; gain = 0.000 ; free physical = 23500 ; free virtual = 65302
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+config_webtalk -user on
+set_property part xc7k70tfbg676-1 [current_project]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri May 12 10:03:23 2017] Launched synth_1...
+Run output will be captured here: /home/centos/fpgawesome/fpgawesome.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbg676-1
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Device 21-403] Loading part xc7k70tfbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 6578.656 ; gain = 174.805 ; free physical = 23155 ; free virtual = 65000

@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_types.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_outputverifier_soutputverifier.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_expectedoutput.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_mealy.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_stimuligenerator_sstimuligenerator.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_topentity_0.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_testinput.vhdl"
+vhdl xil_defaultlib  "../../../fpgawesome.srcs/sources_1/mac_testbench.vhdl"
+
+# Do not sort compile order
+nosort
