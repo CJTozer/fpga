@@ -8,7 +8,7 @@ use work.all;
 use work.ulaw_types.all;
 
 entity ulaw_topentity is
-  port(input_0  : in unsigned(15 downto 0);
+  port(input_0  : in unsigned(13 downto 0);
        output_0 : out unsigned(7 downto 0));
 end;
 
@@ -16,6 +16,6 @@ architecture structural of ulaw_topentity is
 begin
   ulaw_topentity_0_inst : entity ulaw_topentity_0
     port map
-      (arg    => input_0
+      (x      => input_0
       ,result => output_0);
 end;
